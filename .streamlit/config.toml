@@ -3,11 +3,10 @@ developmentMode = false
 logLevel = "info"
 
 [server]
-headless = false
+headless = true
 port = 8501
 enableCORS = false
 enableXsrfProtection = false
-maxUploadSize = 400
 
 [browser]
 gatherUsageStats = false
